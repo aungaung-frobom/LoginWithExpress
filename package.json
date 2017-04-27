@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt-nodejs": "*",
+    "body-parser": "*",
+    "bookshelf": "^0.10.3",
+    "cookie-parser": "*",
+    "ejs": "*",
+    "express": "4.x",
+    "express-session": "*",
+    "knex": "^0.12.9",
+    "mariasql": "^0.2.6",
+    "mysql": "*",
+    "passport": "*",
+    "passport-local": "*"
+  }
+}
