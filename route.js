@@ -74,7 +74,7 @@ var signUpPost = function(req, res, next) {
          var password = user.password;
          var hash = bcrypt.hashSync(password);
 
-         var signUpUser = new Model.User({username: user.username, password: hash});
+         var signUpUser = new Model.User({username: user.username, password: hash, email:user.email});
 
          signUpUser.save().then(function(model) {
             // sign in the newly registered user
